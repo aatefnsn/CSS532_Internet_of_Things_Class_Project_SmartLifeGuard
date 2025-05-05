@@ -1,0 +1,5 @@
+1- in order to make the cloud code work, then you will need to create all the attached IoT Core rules. The rules actions vary between SNS and Republish
+
+2- You will need to create a new S3 bucket that will be the repository for the photos to be labelled.
+
+3- Create a new lambda function that will be responsible for processing the Kinesis data stream and will be responsible for sending the SNS notification as well as sending to the iOS app for alerts. The lambda function is attached here as index.js. 

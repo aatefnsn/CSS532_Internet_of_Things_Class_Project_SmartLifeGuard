@@ -1,0 +1,6 @@
+framework module Pods_SLG {
+  umbrella header "Pods-SLG-umbrella.h"
+
+  export *
+  module * { export * }
+}

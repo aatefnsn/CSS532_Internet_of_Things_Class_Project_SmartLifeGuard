@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SLG' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Smart Lifeguard
+  pod 'AWSCognito'
+  pod 'AWSCore'
+  pod 'AWSIoT'
+  pod 'AWSMobileClient'
+
+  target 'Smart LifeguardTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Smart LifeguardUITests' do
+    # Pods for testing
+  end
+
+end
